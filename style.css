@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -18,15 +17,27 @@ ul {
     list-style: none;
 }
 
-.header {
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.Header {
     color: white;
     background-color: #1f2937;
 }
 
-.headertop {
+.Headertop {
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 
+}
+
+.headerbody {
+    display: flex;
+    background-color: #1f2937;
 }
 
 .title {
@@ -40,11 +51,6 @@ ul {
     color: #e5e7eb;
 }
 
-.headerbody {
-    display: flex;
-}
-
-.headerlogo {
-    font-size: 24px;
-    color: #f9faf8;
+.hbright {
+    max-height: max-content;
 }
