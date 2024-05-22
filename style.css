@@ -98,7 +98,16 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: auto;
+    
+}
+
+div {
+    justify-content: space-evenly;
+}
+
+span {
+    color: #1f2937;
+    align-items: center;
 }
 
 .Square {
@@ -108,7 +117,3 @@ button {
     border-radius: 10px;
 }
 
-span {
-    color: #1f2937;
-    align-items: center;
-}
