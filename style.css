@@ -37,7 +37,7 @@ ul {
 
 .headerbody {
     display: flex;
-    background-color: #1f2937;
+    margin: 100px;
 }
 
 .title {
