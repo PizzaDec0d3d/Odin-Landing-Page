@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -15,6 +16,7 @@ a {
 ul {
     display: flex;
     list-style: none;
+    gap: 20px;
 }
 
 .headerlogo {
@@ -32,12 +34,14 @@ ul {
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
+    padding: 10px;
 
 }
 
 .headerbody {
     display: flex;
     margin: 100px;
+    justify-content: space-between;
 }
 
 .title {
@@ -52,5 +56,14 @@ ul {
 }
 
 .hbright {
-    max-height: max-content;
+    max-height: fit-content;
+    margin: 100px;
+}
+
+.hbleft {
+    margin: 100px;
+}
+
+img {
+    max-height: 200px;
 }
