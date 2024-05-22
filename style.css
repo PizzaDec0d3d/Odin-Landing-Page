@@ -56,14 +56,20 @@ ul {
 }
 
 .hbright {
-    max-height: fit-content;
-    margin: 100px;
-}
-
-.hbleft {
-    margin: 100px;
+    max-height: max-content;
 }
 
 img {
     max-height: 200px;
+}
+
+.hbleft {
+    margin-right: 100px;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    border: 5px round #3882f6;
+    padding: 5px;
 }
